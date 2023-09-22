@@ -1,0 +1,5 @@
+#!/bin/bash
+set -e
+set -x
+
+find -depth -name '__pycache__' -exec rm -rfv '{}' ';'

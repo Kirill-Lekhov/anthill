@@ -1,0 +1,32 @@
+{
+  "config": {
+    "project_name": "anthill-server",
+    "main": "main",
+    "module": {},
+    "docker": {
+      "repository": "",
+      "image": "kirilllekhov/anthill-server",
+      "tag": "latest",
+      "username": "kirilllekhov"
+    }
+  },
+  "modules": [
+    "gitignore",
+    "srta",
+    "pytest",
+    "dockerfile",
+    "dockerignore",
+    "docker-scripts",
+    "settings"
+  ],
+  "config_version": 1,
+  "migration_state": {
+    "gitignore": 4,
+    "srta": 3,
+    "pytest": 1,
+    "dockerfile": 3,
+    "dockerignore": 3,
+    "docker-scripts": 1,
+    "settings": 2
+  }
+}
